@@ -1,0 +1,405 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.robot-icon {
+    background-color: rgb(224,49,48);
+    color: white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 25px;
+    align-content: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #29292c;
+    font-family: "Calibre", system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    font-weight: 600;
+    line-height: 0.98;
+    text-rendering: optimizeLegibility;
+}
+
+.logo h2 {
+    color: rgb(224,49,48);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 32px;
+    background-color: ;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-bottom: 140px;
+    /* background-color: aqua; */
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link a{
+    font-size: 18px;
+    color: dimgray;
+    font-weight: 600;
+}
+
+.nav-btn {
+    padding: 13.5px 27px;
+    border-radius: 30px;
+    background-color: crimson;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    padding: 20px 0px;
+    background-color: ;
+    align-items: center;
+    
+}
+
+.nav-link2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nav-link2 a{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    width: max-content;
+    padding: 0px 20px;
+    font-size: 15px;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+
+    border-radius: 45px;
+
+}
+.nav-link2 .active {
+    background-color: rgb(230,180,43);
+}
+.nav-link2 .more-topics {
+    border: none;
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+
+.glass {
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.nav-search {
+    display: flex;
+    gap: 15px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.head-text h1{
+    /* overflow: hidden; */
+    /* border-right: .15em solid orange; */
+    /* white-space: nowrap; */
+    margin: 0 auto;
+    /* letter-spacing: .15em; */
+    /* animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite; */
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+/* @keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%;
+    }
+} */
+
+.head-text p{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.head-text p a {
+    color: crimson;
+}
+.content-item {
+    padding: 0px 280px 0px 0px;
+}
+
+.cont-head {
+    padding: 30px 0px 5px;
+}
+.cont-head:hover, .cont-footer:hover {
+    color: rgb(238, 173, 53);
+}
+
+
+.cont-main {
+    padding: 10px 0px;
+}
+.cont-author {
+    padding: 10px 0px;
+}
+.cont-author span{
+    padding: 10px 0px;
+    color: rgb(238, 173, 53);
+}
+
+.cont-footer {
+    padding: 10px 0px 35px;
+}
+
+.const-subscribe {
+    background-color: #3d3e44;
+    height: 200px;
+    width: 80%;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.const-form {
+
+}
+
+.const-form input {
+    width: 100%;
+    height: 49px;
+}
+.const-input {
+    display: flex;
+    gap: 8px;
+}
+
+.const-subscribe h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Calibre", system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    font-weight: 600;
+    line-height: 0.98;
+    margin: 1.25rem 0;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -0.04rem;
+    padding: 20px 30px 20px 0px;
+}
+
+.const-subscribe label {
+    color: white;
+    
+}
+
+/* label.required::after {
+    content: "*";
+    margin-left: 0.1875rem;
+} */
+
+.button {
+    
+    appearance: none;
+    background-color: #e03131
+    border-radius: 100rem;
+    border: none;
+    color: var(--color-button-text);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    height: auto;
+    line-height: 1;
+    padding: 1rem 1.75rem;
+    transition: #e03131 200ms ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: #29292C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-top: 50px;
+}
+
+.mlogo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 100px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 100px;
+}
+
+.nav-link3 a{
+    font-size: 18px;
+    color: rgb(234, 227, 227);
+    font-weight: 600;
+    display: block;
+    padding-bottom: 10px;
+}
+.f1-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.footer .logo {
+    margin: 40px 0px 70px 70px;
+    /* align-items: start; */
+    
+}
+.footer .mlogo {
+
+}
+
+.mlogo-text {
+    margin-left: 70px;
+}
+
+.nav-link3 {
+    
+}
+
+.footer p, span a {
+    color: #85858E;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+.footer span a {
+    padding-right: 15px;
+}
+.footer a:hover {
+    color: #e03131
+}
+.num-pages span {
+    padding-right: 5px;
+    color: black;
+    font-size: 12px;
+}
+.num-pages span:hover {
+    color: rgb(238, 173, 53);;
+    font-size: 12px;
+}
+.num-pages {
+    text-align-last: center;
+}
+.num-pages .active {
+
+}
+
+@media screen and (max-width: 1024px) {
+    .content-item {
+        padding: 0;
+    }
+    .f1-footer {
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .footer {
+        height: 54vh;
+    }
+    .const-input {
+        flex-direction: column;
+    }
+    .const-subscribe {
+        height: 400px;
+    }
+    .mlogo {
+        gap: 5px;
+    }
+    .footer-list {
+        gap: 5px;
+    }
+    .nav-link3 a {
+        font-size: 11px;
+        font-weight: 300px;
+        padding-bottom: 0px;
+    }
+    .footer p, span a {
+        font-size: 13px;
+
+    }
+    .footer .logo {
+        margin: 0px 0px 106px 2px;
+        /* align-items: start; */
+        
+    }
+    .mlogo-text {
+        margin-left: 2px;
+    }
+}
+.header-space {
+    height: 60px;
+}
+@media screen and (max-width: 425px) {
+    .head-text h1 {
+        font-size: 20px;
+    }
+    .header-space {
+        height: 120px;
+    }
+    .const-subscribe h2 {
+        font-size: 20px;
+    }
+}
